@@ -5,6 +5,6 @@ function countOneToHunds()
       console.log(i);
     }
 }
-  console.log(countOneToHunds());
+   countOneToHunds();
 
   module.exports = countOneToHunds;
