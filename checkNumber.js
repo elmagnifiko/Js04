@@ -4,11 +4,11 @@ function checkNumber(n)
     n <= 10;
     if (n < 5) 
     {
-      console.log("Faible");
+      return "Faible" ;
     } 
     else if(n === 5 || n === 6)
     {
-      console.log("Moyen");
+      return "Moyen" ;
     }
 }
 console.log(checkNumber(2));

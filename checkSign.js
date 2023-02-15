@@ -2,11 +2,11 @@ function checkSign(n)
 {
     if (n < 0) 
     {
-      console.log("Negatif");
+      return "Negatif" ;
     } 
     else 
     {
-      console.log("Positif");
+      return "Positif" ;
     }
 }
 console.log(checkSign(-10));
